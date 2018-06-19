@@ -13,7 +13,7 @@ def skip_step(starting_foot)
   puts "Bounce  #{starting_foot}  back up slightly, kicking it a few inches back"
   puts "Briefly raise the opposite foot, then the  #{starting_foot} twice more!"
 end
-def bob_the_reins 
+def bob_the_reins
   puts "Holding your arms out in front of you, straight and at chest level"
   puts "Cross your right wrist over your left and hold them together"
   puts "Lift your arms up and down in a loose bouncing movement, in time with the beat of the song. This movement is repeated eight times."
@@ -31,10 +31,12 @@ end
 def gangnam_style
   starting_stance
   base_footwork
+  puts ""
   skip_step("right foot")
-  bob_the_reins 
+  bob_the_reins
   skip_step("left foot")
   lasso
+  puts ""
   bust_a_move
 end
 gangnam_style
