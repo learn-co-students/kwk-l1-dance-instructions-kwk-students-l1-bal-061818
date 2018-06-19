@@ -21,8 +21,8 @@ end
 
 #skip step for Right
 def skip_step("right foot")
-  puts "Lower right foot to the ground"
-  puts "Bounce right foot back up slightly, kicking it a few inches back"
+  puts "Lower #{starting_foot} to the ground"
+  puts "Bounce #{starting_foot} back up slightly, kicking it a few inches back"
   puts "Briefly raise the opposite foot, then the #{starting_foot} twice more!"
 end
 
